@@ -46,14 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTeam.Designer.cs">
+      <DependentUpon>EditTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTeam2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTeam2.Designer.cs">
+      <DependentUpon>EditTeam2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAdmin.Designer.cs">
+      <DependentUpon>EventAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Matchup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matchup.Designer.cs">
+      <DependentUpon>Matchup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team.Designer.cs">
+      <DependentUpon>Team.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamDetals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamDetals.Designer.cs">
+      <DependentUpon>TeamDetals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visitor.Designer.cs">
+      <DependentUpon>Visitor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EditTeam.resx">
+      <DependentUpon>EditTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTeam2.resx">
+      <DependentUpon>EditTeam2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAdmin.resx">
+      <DependentUpon>EventAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matchup.resx">
+      <DependentUpon>Matchup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +120,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Team.resx">
+      <DependentUpon>Team.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamDetals.resx">
+      <DependentUpon>TeamDetals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visitor.resx">
+      <DependentUpon>Visitor.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
